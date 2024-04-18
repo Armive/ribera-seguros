@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets";
+---
+
+<header class="h-20 w-full bg-background flex justify-between p-4 items-center">
+	<Image
+		src="/public/Ribera.png"
+		height={70}
+		width={70}
+		alt="Un pájaro sentado sobre un nido de huevos."
+		class="rounded"
+	/>
+	<h1 class="text-primary scroll-m-20 text-2xl font-semibold tracking-[3px]">
+		Ribera Seguros
+	</h1>
+	<nav class="flex gap-5">
+		<a
+			href=""
+			class="text-primary leading-7 font-semibold hover:text-secondary-foreground duration-100"
+			>Seguros</a
+		>
+	</nav>
+</header>
